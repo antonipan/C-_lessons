@@ -51,11 +51,13 @@ Console.WriteLine(year); */
     {
         result = result + text; 
         i++;
+        
     }
     return result;
 }
 string res = Method4(10, "asd "); 
-Console.WriteLine(res); 
+Console.WriteLine(res); */
+
 /*
  string Method4(int count, string text)
 {
@@ -111,7 +113,9 @@ newText = Replace(newText, 'С', 'с');
 Console.WriteLine();
 Console.WriteLine(newText);
  */
-Console.Clear();
+
+
+/* Console.Clear();
  int [] mass1 = {1, 3, 1, 4, 5, 8, 11, 13, 7, 9, 0, 10, 8};
 
 void Printmass1 (int [] mass1)
@@ -148,3 +152,4 @@ void SelectionSort(int [] mass1)
 Printmass1(mass1);
 SelectionSort(mass1);
 Printmass1(mass1);
+ */

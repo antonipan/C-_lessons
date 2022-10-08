@@ -21,16 +21,16 @@ Console.WriteLine(result);
 
 
 // Пример №10
-int [] array = {1,5,5,5,6,7,8,5,14,5,23};
+int [] array1 = {1,5,5,5,6,7,8,5,14,5,23};
 
-int n = array.Length;
+int n = array1.Length;
 
 int find = 5;
 int index = 0;
 
 while (index < n)
 {
-    if (array[index] == find)
+    if (array1[index] == find)
     {
         Console.WriteLine(index);
         break;
@@ -82,15 +82,15 @@ int Indexof(int[]collection, int find)
     }
     return position; 
 }
-int [] array = new int [10];
-FillArray(array);
-array[4] = 5;
-array[7] = 5;
-PrintArray(array);
+int [] array2 = new int [10];
+FillArray(array2);
+array2[4] = 5;
+array2[7] = 5;
+PrintArray(array2);
 
 Console.WriteLine("А теперь позиция");
 
-int pos = Indexof(array, 5);
+int pos = Indexof(array2, 5);
 Console.WriteLine(pos);
 
 

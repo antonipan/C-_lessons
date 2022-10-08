@@ -3,19 +3,19 @@
 Console.WriteLine("Hello, World! 234");
 
 // Пример №2. 
-Console.WriteLine("Введите ваше имя");
-string user_name = Console.ReadLine();
-Console.Write("Здравствуйте, ");
-Console.Write(user_name);/ Пример №3. 
+// Console.WriteLine("Введите ваше имя");
+// string user_name = Console.ReadLine();
+// Console.Write("Здравствуйте, ");
+// Console.Write(user_name);// Пример №3. 
 
 // Пример №3.
 
 
-int numberA = 14;
-int numberB = 5;
-int sum = numberA + numberB;
+// int numberA = 14;
+// int numberB = 5;
+// int sum = numberA + numberB;
 
-Console.WriteLine(sum);
+// Console.WriteLine(sum);
 
 // Пример №4. 
 int numberA = new Random().Next(1,10); // числа от одного до десяти
@@ -26,17 +26,17 @@ int diff = numberA + numberB;
 Console.WriteLine(diff);
 
 // Пример №5. 
-Console.WriteLine("Введите ваше имя");
-string username = Console.ReadLine();
+// Console.WriteLine("Введите ваше имя");
+// string username = Console.ReadLine();
 
-if (username.ToLower() == "маша")
-{
-    Console.WriteLine("Ура! Это же Маша!");
-}
-else{
-    Console.Write("Привет, ");
-    Console.Write(username);
-}
+// if (username.ToLower() == "маша")
+// {
+//     Console.WriteLine("Ура! Это же Маша!");
+// }
+// else{
+//     Console.Write("Привет, ");
+//     Console.Write(username);
+// }
 
 // Пример №6. 
 int a = 2;
@@ -109,7 +109,9 @@ int Max (int arg1, int arg2, int arg3)
 int [] array = {1, 3, 18, 48, 35, 61, 102, 79, 50, 35, 64}; 
 
 
-Console.WriteLine();
+Console.WriteLine(Max(3,2,4));
+
+
 
 
 
